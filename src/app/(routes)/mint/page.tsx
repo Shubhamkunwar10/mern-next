@@ -103,11 +103,14 @@ const MintPage = () => {
             display:"flex",
             justifyContent:"center"
           }}>
-              <button onClick={handleClaimNft} className="inline-block rounded-full bg-accent py-3 px-8 text-center font-semibold  shadow-accent-volume transition-all hover:bg-accent-dark">
-                Claim NFT
+              <button  className="inline-block rounded-full bg-accent py-3 px-8 text-center font-semibold  shadow-accent-volume transition-all hover:bg-accent-dark">
+               <Link href="https://discord.gg/wMcv6HW6VJ"  passHref legacyBehavior >
+                 <a target="_blank">
+                   Join Discord To Get free Nft and start passive income
+                  </a>
+                </Link>
               </button>
-           
-
+            
           </Container>
          
         </div>
