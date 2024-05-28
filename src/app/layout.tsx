@@ -40,8 +40,8 @@ import { CssBaseline, ThemeProvider } from "@mui/material";
 import { ColorModeContext, useMode } from './layout/Theme/themes';
 import { ToastContainer } from "react-toastify";
 import 'react-toastify/dist/ReactToastify.css';
-// import { Analytics } from '@vercel/analytics/react';
-// import { SpeedInsights } from '@vercel/speed-insights/react';
+import { Analytics } from '@vercel/analytics/react';
+import { SpeedInsights } from '@vercel/speed-insights/react';
 
 const smartWalletOptions = {
   factoryAddress: "0x2ace847964fe70d38ea6dad726e3a230dca244bd",
@@ -136,8 +136,8 @@ export default function DashboardLayout({
                 </Box>
               </ThirdwebProvider>
             </ThemeProvider>
-            {/* <Analytics /> */}
-            {/* <SpeedInsights /> */}
+            <Analytics />
+            <SpeedInsights />
           </ColorModeContext.Provider>
         </body>
 
