@@ -54,7 +54,6 @@ const Header: React.FC<HeaderProps> = ({ setIsSidebarOpen, APP_BAR }) => {
         >
           <MenuIcon />
         </IconButton>
-        METAKUL
         <Link
           href={"/"}>
 
